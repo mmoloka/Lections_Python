@@ -49,3 +49,22 @@ a = 2        # a = 1.312312
 b = 800      # b = 3
 c = a ** b   # c = round(a * b, 5)
 print (c)    # 3.93694
+
+# Логические операции
+# >, >=, <, <=, ==, !=
+# not, and, or - не путать с &, |, ^
+# is, is not, in, not in
+# gen
+
+a = 1 < 4 and 5 > 2
+print(a)
+func =1
+T = 4
+x = 123
+print(func<T>(x))
+f = 1 > 2 or 4 < 6
+print(f)
+col = [1, 2, 3, 4]
+print(2 in col)            # print(not 2 in col) -> False
+is_odd = col[0] % 2 == 0   # is_odd = not col[0] % 2 -> False
+print(is_odd)
