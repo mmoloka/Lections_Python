@@ -166,7 +166,7 @@ for e in colors:
     print(e)                                       # red green blue
 for e in colors:
     print(e*2)                                     # redred greengreen blueblue
-colors.append('gray')
+colors.append('gray')                              # добавление элемента в конец списка
 print(colors == ['red', 'green', 'blue', 'gray'])  # True
 colors.remove('red')                               # удаление элемента
 print(colors)                                      # ['green', 'blue', 'gray']
