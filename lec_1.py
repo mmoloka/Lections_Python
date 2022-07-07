@@ -104,4 +104,15 @@ else:
     print('хватит')
 print(inverted)
 
+# for
+
+for i in 1, 2, 3, 4, 5:    # list = [1, 2, 3, 4, 5]
+    print(i**2)            # for i in list:
+r = range(10)
+for i in r:                # for i in range(10):       range(1, 10, 2) от 1 до 10 приращение 2
+    print(i)
+for i in 'qwer-ty':
+    print(i)
+
+
 
