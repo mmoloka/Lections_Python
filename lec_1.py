@@ -68,3 +68,24 @@ col = [1, 2, 3, 4]
 print(2 in col)            # print(not 2 in col) -> False
 is_odd = col[0] % 2 == 0   # is_odd = not col[0] % 2 -> False
 print(is_odd)
+
+# Управляющие конструкции
+# if, if -else
+
+a = int(input('a = '))
+b = int(input('b = '))
+if a > b:
+    print(a)
+else:
+    print(b)
+
+username = input('Введите имя: ')
+if username == 'Маша':
+    print('Ура, это же МАША !')
+elif username == 'Марина':
+    print('Я так ждал Вас, Марина!')
+elif username == 'Ильнар':
+    print('Ильнар - топ)')
+else:
+    print('Привет, ', username)
+
