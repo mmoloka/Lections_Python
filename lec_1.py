@@ -30,3 +30,13 @@ print(t)
 
 list = ['1', '2', '3', 'hello']
 print(list)
+
+# Ввод и вывод данных
+# print, input
+print('Введите a')
+a = input()                   # a = int(input())         a = float(input())
+print('Введите b')
+b = input()                   # b = int (input())        b = float(input())
+print(a, '+', b, '=', a + b)  # 10 + 20 = 30             1.23 + 2.34 = 3.57
+print('{} {}'.format(a, b))
+print(f'{a} {b}')
