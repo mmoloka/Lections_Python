@@ -114,5 +114,33 @@ for i in r:                # for i in range(10):       range(1, 10, 2) от 1 д
 for i in 'qwer-ty':
     print(i)
 
+# Немного о строках
+
+text = 'съешь ещё этих мягких французских булок'
+print(len(text))                   #39
+print('ещё' in text)               # True
+print(text.isdigit())              # False
+print(text.islower())              # True
+print(text.replace('ещё', 'ЕЩЁ'))  # 'съешь ЕЩЁ этих мягких французских булок'  
+
+help(int)                          # справка языка
+
+for c in text:
+    print(c)
+
+print(text[0])                           # с
+print(text[1])                           # ъ
+#print(text[len(text)])                  # IndexError: string index out of range
+print(text[len(text)-1])                 # к
+print(text[-5])                          # б
+print(text[:])                           # съешь ещё этих мягких французских булок
+print(text[:2])                          # съ
+print(text[len(text)-2:])                # ок
+print(text[2:9])                         # ешь ещё
+print(text[6:-18])                       # ещё этих мягких
+print(text[0:len(text):6])               # сеикакл
+print(text[::6])                         # сеикакл
+text = text[2:9] + text[-5] + text[:2 ]  # print(text) -> ешь ещёбсъ
+
 
 
